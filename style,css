@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:50px;
+    background:#f0f0f0
+}
+
+.rainbow-container{
+    text-align-center;    
+}
+
+h2{
+    font-family:arival,sans-serif;
+    margin-bottom:30px;
+}
+ 
+.rainbow-box{
+    width:100%
+    max-width:600px;
+    height:50px;
+    margin:0;
+    background:linear-gradient(
+        to right,
+        red 0%,red 14.28%,
+        orange 14.28%,orange 28.56%,
+        yellow 28.56%,yellow 42.84%,
+        green 42.84%,green 57.12%,
+        blue 57.12%,blue 71.4%,
+        violet 71.4%,violet 100%
+    );
+    border-radius:8px;
+}
